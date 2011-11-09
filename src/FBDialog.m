@@ -172,7 +172,7 @@ params   = _params;
     CGFloat width = floor(scale_factor * frame.size.width) - kPadding * 2;
     CGFloat height = floor(scale_factor * frame.size.height) - kPadding * 2;
     
-    _orientation = (UIDeviceOrientation)[UIApplication sharedApplication].statusBarOrientation;
+    _orientation = [UIApplication sharedApplication].statusBarOrientation;
     if (UIInterfaceOrientationIsLandscape(_orientation)) {
         self.frame = CGRectMake(kPadding, kPadding, height, width);
     } else {

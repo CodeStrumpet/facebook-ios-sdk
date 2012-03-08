@@ -421,7 +421,7 @@ params   = _params;
 
     UIDeviceOrientation orientation = (UIDeviceOrientation)[UIApplication sharedApplication].statusBarOrientation;
 
-    if (!_showingKeyboard && [self shouldRotateToOrientation:orientation]) {
+    if (!_showingKeyboard && [self shouldRotateToOrientation:(UIInterfaceOrientation)orientation]) {
         [self updateWebOrientation];
         
         CGFloat duration = [UIApplication sharedApplication].statusBarOrientationAnimationDuration;

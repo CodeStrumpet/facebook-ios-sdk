@@ -188,10 +188,10 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = facebook_ios_sdk_Prefix.pch;
-				HEADER_SEARCH_PATHS = "../../tacommon/**";
+				HEADER_SEARCH_PATHS = "../../ta-ios-common/**";
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LIBRARY_SEARCH_PATHS = "../../tacommon/**";
+				LIBRARY_SEARCH_PATHS = "../../ta-ios-common/**";
 				PRODUCT_NAME = facebook_ios_sdk;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -207,10 +207,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = facebook_ios_sdk_Prefix.pch;
-				HEADER_SEARCH_PATHS = "../../tacommon/**";
+				HEADER_SEARCH_PATHS = "../../ta-ios-common/**";
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				LIBRARY_SEARCH_PATHS = "../../tacommon/**";
+				LIBRARY_SEARCH_PATHS = "../../ta-ios-common/**";
 				PRODUCT_NAME = facebook_ios_sdk;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
